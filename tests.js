@@ -31,7 +31,8 @@ it('should return the string "Hello Obi!" when executed', function() {
 });
 describe('sayHello', function() {
     it('should be a defined function', function () {
-        expect(typeof sayHello).toBe('function');
+        /*expect(typeof sayHello).toBe('function');**/
+        expect(sayHello()).toBe("Hello, World!")
     });
     it('should return the string "Hello Alex!" when executed', function() {
         expect(sayHello("Alex")).toBe("Hello, Alex!");

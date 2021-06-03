@@ -14,8 +14,9 @@ if  (name==="Summer"){
         return "Hello, Alex!";
     if (name === "Pat")
         return "Hello, Pat!";
-    return "Hello, " + input + "!";
     return "Hello, World!";
+    return String(helloWorld(name)) + "!";
     /*return "Hello, World!"**/
 }
+
 
