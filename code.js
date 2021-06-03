@@ -3,6 +3,19 @@ function helloWorld() {
     return "Hello, World!";
 }
 
-function sayHello(){
-
+function sayHello(name){
+    var input=name;
+if  (name==="Summer"){
+    return "Hello Summer!"
+} else if (name ==="Obi"){
+    return "Hello Obi!";
+    }
+    if (name === "Alex")
+        return "Hello, Alex!";
+    if (name === "Pat")
+        return "Hello, Pat!";
+    return "Hello, " + input + "!";
+    return "Hello, World!";
+    /*return "Hello, World!"**/
 }
+
